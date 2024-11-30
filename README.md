@@ -1,1 +1,1 @@
-# Project_RUET_Management_3100
+This is my first web dev project. Here I am creating a RUET instrument management system. 
