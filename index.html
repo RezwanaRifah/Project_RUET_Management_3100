@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUET Instrument Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">RUET</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#instruments">Instruments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Resource Management System for RUET</h1>
+    </section>
+
+    <!-- Department Grid Section -->
+    <section class="departments" id="departments">
+        <h2>Departments</h2>
+        <div class="grid">
+            <div class="department-card">
+                CSE <br />
+                <button>
+                    <a href="facilities.html" class="view-more" onclick="openModal('EEE')">View More</a>
+                </button>
+            </div>
+            <div class="department-card">
+                EEE  <br />
+                <button>
+                    <a href="facilities.html" class="view-more" onclick="openModal('EEE')">View More</a>
+                </button>
+            </div>
+            <div class="department-card">
+                ME<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                CE<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                ECE<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                ETE<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                MTE<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                GCE <br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                IPE<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                BECM <br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                Arch<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <div class="department-card">
+                URP<br />
+                <button class="view-more" onclick="openModal('Mechanical Engineering')">View More</button>
+            </div>
+            <!-- Add more department cards as needed -->
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description">Detailed information about the department and instruments.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 RUET Instrument Management System</p>
+        <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
